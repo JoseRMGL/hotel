@@ -1,0 +1,52 @@
+CRITICAL - 2024-07-26 15:19:18 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: ver_reservaciones]
+in APPPATH\Views\reservaciones.php on line 55.
+ 1 APPPATH\Views\reservaciones.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\fs2024\\hotel\\app\\Views\\reservaciones.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\hotel\\app\\Views\\reservaciones.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reservaciones', [], true)
+ 5 APPPATH\Controllers\Reservaciones.php(15): view('reservaciones', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservaciones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservaciones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 15:26:15 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: buscar_reservaciones/9]
+in APPPATH\Views\editar_reservacion.php on line 45.
+ 1 APPPATH\Views\editar_reservacion.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\fs2024\\hotel\\app\\Views\\editar_reservacion.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\hotel\\app\\Views\\editar_reservacion.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('editar_reservacion', [], true)
+ 5 APPPATH\Controllers\Reservaciones.php(46): view('editar_reservacion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservaciones->buscarReservacion('9')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservaciones))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 15:27:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "nuevos_reservaciones.php"
+[Method: GET, Route: nuevas_reservaciones]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nuevos_reservaciones.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nuevos_reservaciones', [], true)
+ 3 APPPATH\Controllers\Reservaciones.php(19): view('nuevos_reservaciones')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservaciones->nuevosReservaciones()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservaciones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 15:28:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "nuevos_reservaciones.php"
+[Method: GET, Route: nuevas_reservaciones]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nuevos_reservaciones.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nuevos_reservaciones', [], true)
+ 3 APPPATH\Controllers\Reservaciones.php(19): view('nuevos_reservaciones')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reservaciones->nuevosReservaciones()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reservaciones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
